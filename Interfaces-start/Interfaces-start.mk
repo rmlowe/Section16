@@ -3,11 +3,11 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=PureVirtualFunctions
+ProjectName            :=Interfaces-start
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=/Users/robertlowe/Documents/Section16
-ProjectPath            :=/Users/robertlowe/Documents/Section16/PureVirtualFunctions
+ProjectPath            :=/Users/robertlowe/Documents/Section16/Interfaces-start
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -34,7 +34,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="PureVirtualFunctions.txt"
+ObjectsFileList        :="Interfaces-start.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/robertlowe/Documents/Section16/PureVirtualFunctions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/robertlowe/Documents/Section16/Interfaces-start/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
