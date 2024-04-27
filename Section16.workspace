@@ -11,7 +11,8 @@
   <Project Name="Interfaces-Complete" Path="Interfaces-Complete/Interfaces-Complete.project" Active="No"/>
   <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
   <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
-  <Project Name="ChallengeSolution-Part1" Path="ChallengeSolution-Part1/ChallengeSolution-Part1.project" Active="Yes"/>
+  <Project Name="ChallengeSolution-Part1" Path="ChallengeSolution-Part1/ChallengeSolution-Part1.project" Active="No"/>
+  <Project Name="ChallengeSolution-Part2" Path="ChallengeSolution-Part2/ChallengeSolution-Part2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -27,6 +28,7 @@
       <Project Name="Challenge" ConfigName="Debug"/>
       <Project Name="ChallengeSolution" ConfigName="Debug"/>
       <Project Name="ChallengeSolution-Part1" ConfigName="Debug"/>
+      <Project Name="ChallengeSolution-Part2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -42,6 +44,7 @@
       <Project Name="Challenge" ConfigName="Release"/>
       <Project Name="ChallengeSolution" ConfigName="Release"/>
       <Project Name="ChallengeSolution-Part1" ConfigName="Release"/>
+      <Project Name="ChallengeSolution-Part2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
