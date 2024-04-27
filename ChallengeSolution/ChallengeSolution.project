@@ -93,11 +93,12 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="I_Printable.cpp"/>
+    <File Name="I_Printable.h"/>
     <File Name="Trust_Account.cpp"/>
     <File Name="Trust_Account.h"/>
     <File Name="Savings_Account.cpp"/>
     <File Name="Savings_Account.h"/>
-    <File Name="Description.txt"/>
     <File Name="Checking_Account.cpp"/>
     <File Name="Checking_Account.h"/>
     <File Name="Account.cpp"/>
